@@ -159,6 +159,118 @@ img {
   
   
   
-  
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) 
+and (-webkit-min-device-pixel-ratio: 1) {
+	body{
+		background: #eff1f0;
+		color: #496a7b;
+		font-family: 'Josefin Sans', sans-serif;
+	}
+
+	button{
+		background-color: #496a7b;
+		color: #eff1f0;
+		border-radius: 5px;
+		padding: 18px;
+		font-size: 20px;
+		border-color: #496a7b;
+		margin: 5px;
+		
+	}
+
+	.intro{
+		margin-left: 10px;
+		margin-top: 50px;
+		text-align: center;
+		padding-right: 10px;
+	}
+
+	.menu {
+		text-align: center;
+		padding: 10px;
+		font-style: italic;
+	}
+
+	a{
+		color: #496a7b;
+		font-size: 20px;
+	}
+
+	h1{
+		font-size: 60px;
+		text-align: center;
+		
+	}
+
+	p{
+		font-size: 18px;
+		padding: auto;
+		text-align: center;
+	}
+
+	.container{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	img{
+		width: 100%;
+	}
+
+	.image1 p{
+		font-size: small;
+		font-style: italic;
+	}
+
+	.image2{
+		text-align: center;
+	}
+
+	.image2 p{
+		font-size: medium;
+		font-style: italic;
+		text-align: center;
+		
+	}
+
+	.image2 img{
+		width: 80%;
+	}
+
+	.updates{
+		padding-left: 30px;
+		font-size: medium;
+		padding-right: 30px;
+	}
+
+	.intro-pt2{
+		text-align: left;
+		text-underline-offset: 15px;
+		padding-left: 10px;
+	}
+
+	.intro-pt3{
+		text-align: left;
+		text-underline-offset: 15px;
+		padding-left: 10px;
+	}
+
+	.intro-pt2 h3{
+		font-style: italic;
+		text-align: center;
+	}
+
+	.wheretodonate{
+		font-size: 18px;
+		text-align: center;
+	}
+
+	.informationsources{
+		font-size: 18px;
+		text-align: center;
+	}
+}
   
   
